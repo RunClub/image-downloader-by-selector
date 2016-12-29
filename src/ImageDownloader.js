@@ -4,7 +4,7 @@ var cheerio = require('cheerio');
 var ImageDownloader = {};
     ImageDownloader.download = function ( options, cb ) {
         if (!options || !options.url || !options.selector) {
-          return cb(new Error("Missing required params: options.url or options.class."));
+          return cb(new Error("Missing required params: options.url or options.class. \n Provided: ", options));
         }
         if(!options.max) {
           options.max = 10;
