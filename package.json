@@ -1,0 +1,23 @@
+{
+  "name": "image-downloader-by-selector",
+  "version": "1.0.0",
+  "description": "Downloads image by class and returns it to a callback to do whatever you want",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "image",
+    "donwnload",
+    "download",
+    "image",
+    "huehue",
+    "scrap"
+  ],
+  "author": "romuloctba",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "request": "^2.79.0"
+  }
+}
