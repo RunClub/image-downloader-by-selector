@@ -28,7 +28,7 @@ var ImageDownloader = {};
             console.log("i is "+(i+1)+" and max  is "+options.max);
 
             if(element && i+1 <= options.max){
-              var imgURL = $(element).attr('src');
+              var imgURL = $(element).attr(options.attribute);
               results.push(imgURL);
             }
 
