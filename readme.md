@@ -15,3 +15,5 @@ download({
     console.log("data ", data);
     });
 ```
+
+It doesn't acctually download the images yet, but return an array of direct urls to them
